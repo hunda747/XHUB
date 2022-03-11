@@ -1,0 +1,51 @@
+.container {
+}
+
+ul {
+  list-style: none;
+  text-decoration: none;
+}
+
+.border {
+  border-right: 2px solid red;
+}
+
+.footer {
+  margin: 2rem 0;
+}
+
+.footer .container {
+  max-width: 1300px;
+  margin: auto;
+}
+
+.container .upper {
+  background-color: black;
+  color: white;
+  padding: 4rem;
+}
+
+.container .upper ul {
+  list-style-type: none;
+  align-items: center;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.container .upper ul li {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  padding: 0 1rem;
+}
+
+.container .lower {
+  content: "";
+  display: block;
+  clear: both;
+  background-color: rgb(204, 0, 78);
+  color: white;
+  padding: 2rem;
+  text-align: center;
+}

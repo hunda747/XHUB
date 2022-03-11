@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+.video .container {
+  max-width: 1100px;
+}
+
+.video {
+  padding: 2rem;
+}
+
+h1 {
+  padding: 2rem 0;
+  align-items: center;
+  text-align: center;
+  font-size: 50px;
+
+  border-bottom: 1px solid red;
+}
+
+/* .events h1 {
+  content: "";
+  position: absolute;
+  align-items: center;
+  text-align: center;
+  left: 25px;
+  bottom: 0;
+  height: 15px;
+  width: 25%;
+  border-bottom: 3px solid red;
+} */
+
+.video .youVidItems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+}
+
+.video .youVidItems .youVid {
+  padding: 4rem 2rem;
+}
+
+.video .btn {
+  margin: 1rem;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.events {
+  padding: 2rem;
+  align-items: center;
+  text-align: center;
+}
+
+.events .eventItems {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: space-between;
+  padding: 1rem;
+}
+
+.events .eventItems .event {
+  padding: 0.5rem;
+}
+
+.events .eventItems .event h2 {
+  padding: 2rem 0;
+  text-align: center;
+  color: red;
+}
+
+.events .eventItems .event img {
+  height: 220px;
+}
